@@ -1,242 +1,123 @@
 # Table of contents
 
-
-
-  * [No group](nogroup.md)
-
-  * [Acquisitions](Acquisitions/acq.md)
-
-    * [Collection Development](Collection Development/acq_colldev.md)
-
-    * [Purchase Requests](Purchase Requests/acq_purreq.md)
-
-  * [Administrative Reports](Administrative Reports/admin.md)
-
-    * [No sub-group](No sub-group/admin_nosubgroup.md)
-
-    * [Acquistions-admin](Acquistions-admin/admin_acqad.md)
-
-    * [Catalog-admin](Catalog-admin/admin_catad.md)
-
-    * [Circ Stats-admin](Circ Stats-admin/admin_circstatad.md)
-
-    * [Collection Development-admin](Collection Development-admin/admin_colldevad.md)
-
-    * [Collection Stats-admin](Collection Stats-admin/admin_collstatad.md)
-
-    * [Daily, Monthly, Yearly Stats-admin](Daily, Monthly, Yearly Stats-admin/admin_regularad.md)
-
-    * [Duplicate Records-admin](Duplicate Records-admin/admin_duprecad.md)
-
-    * [Fix Bib Records-admin](Fix Bib Records-admin/admin_cleanbibad.md)
-
-    * [Fix Items-admin](Fix Items-admin/admin_cleanitead.md)
-
-    * [Holds-admin](Holds-admin/admin_holdsad.md)
-
-    * [ILL-admin](ILL-admin/admin_illad.md)
-
-    * [Items-admin](Items-admin/admin_itemsad.md)
-
-    * [Local Holds - Walkin-admin](Local Holds - Walkin-admin/admin_lhwad.md)
-
-    * [Not For Loan-admin](Not For Loan-admin/admin_noloanad.md)
-
-    * [Overdues-admin](Overdues-admin/admin_overduead.md)
-
-    * [Patron Statistics-admin](Patron Statistics-admin/admin_patstatad.md)
-
-    * [Patrons-admin](Patrons-admin/admin_patronsad.md)
-
-    * [Post-Lansing](Post-Lansing/admin_postlansing.md)
-
-    * [Reports Testing Ground](Reports Testing Ground/admin_sandbox.md)
-
-    * [Reports-admin](Reports-admin/admin_reportsa.md)
-
-    * [School Libraries-admin](School Libraries-admin/admin_schoolad.md)
-
-    * [Shelf Lists - admin](Shelf Lists - admin/admin_shelfad.md)
-
-    * [Slow Patrons - admin](Slow Patrons - admin/admin_slowpatronad.md)
-
-    * [System-admin](System-admin/admin_systemad.md)
-
-    * [Testing](Testing/admin_ghwtest.md)
-
-    * [Weeding-Admin](Weeding-Admin/admin_weedingad.md)
-
-    * [Zebraqueue](Zebraqueue/admin_zebra.md)
-
-  * [Catalog Records and Items](Catalog Records and Items/cat.md)
-
-    * [No sub-group](No sub-group/cat_nosubgroup.md)
-
-    * [Collection Statistics](Collection Statistics/cat_collstats.md)
-
-    * [Fix Items](Fix Items/cat_cleanitem.md)
-
-    * [Local Hold - Walkins](Local Hold - Walkins/cat_lhw.md)
-
-    * [New Materials](New Materials/cat_newmat.md)
-
-    * [Not For Loan](Not For Loan/cat_noloan.md)
-
-    * [Reading Program Reports](Reading Program Reports/cat_cat_read.md)
-
-    * [Shelf Lists](Shelf Lists/cat_shelflist.md)
-
-    * [Status reports-lost, damaged](Status reports-lost, damaged/cat_status.md)
-
-    * [Weeded Already](Weeded Already/cat_weeded.md)
-
-    * [Weeding Criteria](Weeding Criteria/cat_weeding.md)
-
-  * [Circulation](Circulation/circ.md)
-
-    * [No sub-group](No sub-group/circ_nosubgroup.md)
-
-    * [Charges](Charges/circ_fines.md)
-
-    * [Checked Out](Checked Out/circ_checkedout.md)
-
-    * [Circ Stats](Circ Stats/circ_circstats.md)
-
-    * [Overdues](Overdues/circ_overdues.md)
-
-    * [Transfers](Transfers/circ_circ_trans.md)
-
-  * [Daily, Monthly, Yearly Stats](Daily, Monthly, Yearly Stats/regular.md)
-
-    * [No sub-group](No sub-group/regular_nosubgroup.md)
-
-    * [All Time](All Time/regular_alltime.md)
-
-    * [Daily](Daily/regular_daily.md)
-
-    * [Monthly](Monthly/regular_monthly.md)
-
-    * [Yearly Stats Suite](Yearly Stats Suite/regular_yearlystats.md)
-
-    * [Yearly](Yearly/regular_yearly.md)
-
-  * [Display reports](Display reports/display.md)
-
-  * [Fines/Fees](Fines/Fees/fees.md)
-
-    * [No sub-group](No sub-group/fees_nosubgroup.md)
-
-  * [Holds-Reserves](Holds-Reserves/holds.md)
-
-    * [No sub-group](No sub-group/holds_nosubgroup.md)
-
-    * [Duplicate request problems](Duplicate request problems/holds_holddup.md)
-
-    * [Holds Statistics](Holds Statistics/holds_holdstat.md)
-
-    * [Holds troubleshooting](Holds troubleshooting/holds_holdtrbl.md)
-
-  * [Interlibrary Loan](Interlibrary Loan/ill.md)
-
-    * [No sub-group](No sub-group/ill_nosubgroup.md)
-
-  * [Library-Specific](Library-Specific/custom.md)
-
-    * [No sub-group](No sub-group/custom_nosubgroup.md)
-
-    * [Atchison](Atchison/custom_atchison.md)
-
-    * [Basehor](Basehor/custom_basehor.md)
-
-    * [Bonner Springs](Bonner Springs/custom_bonnerspgs.md)
-
-    * [Burlingame](Burlingame/custom_burlingame.md)
-
-    * [Doniphan](Doniphan/custom_doniphan.md)
-
-    * [Eudora](Eudora/custom_eudora.md)
-
-    * [Hiawatha](Hiawatha/custom_hiaw.md)
-
-    * [Holton](Holton/custom_holton.md)
-
-    * [Horton](Horton/custom_horton.md)
-
-    * [Lansing](Lansing/custom_lansing.md)
-
-    * [Leavenworth](Leavenworth/custom_leavnwrth.md)
-
-    * [Linwood](Linwood/custom_linwood.md)
-
-    * [McLouth](McLouth/custom_mclouth.md)
-
-    * [NEKLS](NEKLS/custom_nekls.md)
-
-    * [Osawatomie](Osawatomie/custom_osawatomie.md)
-
-    * [Oskaloosa](Oskaloosa/custom_oskaloosa.md)
-
-    * [Ottawa](Ottawa/custom_ott.md)
-
-    * [Overbrook](Overbrook/custom_overbrook.md)
-
-    * [POMONA](POMONA/custom_pomona.md)
-
-    * [Rossville](Rossville/custom_rossville.md)
-
-    * [Tonganoxie](Tonganoxie/custom_tonganoxie.md)
-
-    * [Valley Falls](Valley Falls/custom_valleyfall.md)
-
-    * [Wellsville](Wellsville/custom_wellsville.md)
-
-    * [Williamsburg](Williamsburg/custom_williamsbg.md)
-
-    * [Winchester](Winchester/custom_winchester.md)
-
-  * [Lists Module](Lists Module/lists.md)
-
-    * [No sub-group](No sub-group/lists_nosubgroup.md)
-
-  * [Monthly cleanup](Monthly cleanup/month.md)
-
-    * [No sub-group](No sub-group/month_nosubgroup.md)
-
-  * [Notices](Notices/notices.md)
-
-    * [No sub-group](No sub-group/notices_nosubgroup.md)
-
-  * [Patrons](Patrons/pat.md)
-
-    * [No sub-group](No sub-group/pat_nosubgroup.md)
-
-    * [Fix Patrons](Fix Patrons/pat_cleanpat.md)
-
-    * [Guarantor/guranantee reports](Guarantor/guranantee reports/pat_pat_guarantor.md)
-
-    * [Patron Statistics](Patron Statistics/pat_patstat.md)
-
-  * [Popular Reports](Popular Reports/popular.md)
-
-    * [No sub-group](No sub-group/popular_nosubgroup.md)
-
-  * [School Libraries](School Libraries/school.md)
-
-    * [No sub-group](No sub-group/school_nosubgroup.md)
-
-    * [Overdues (schools.md)](Overdues (schools.md)/school_schoverdues.md)
-
-    * [Students](Students/school_students.md)
-
-    * [Teachers](Teachers/school_teachers.md)
-
-  * [Serials](Serials/ser.md)
-
-  * [Statistics](Statistics/stats.md)
-
-    * [No sub-group](No sub-group/stats_nosubgroup.md)
-
-    * [Date range](Date range/stats_stat_r.md)
-
-    * [Last calendar month](Last calendar month/stats_stat_m.md)
+* [Introduction](README.md)
+* [No group](no-group.md)
+* [Acquisitions](acquisitions/README.md)
+  * [Collection Development](acquisitions/collection-development.md)
+  * [Purchase Requests](acquisitions/purchase-requests.md)
+* [Administrative Reports](administrative-reports/README.md)
+  * [No sub-group](administrative-reports/no-sub-group.md)
+  * [Acquistions-admin](administrative-reports/acquistions-admin.md)
+  * [Catalog-admin](administrative-reports/catalog-admin.md)
+  * [Circ Stats-admin](administrative-reports/circ-stats-admin.md)
+  * [Collection Development-admin](administrative-reports/collection-development-admin.md)
+  * [Collection Stats-admin](administrative-reports/collection-stats-admin.md)
+  * [Daily, Monthly, Yearly Stats-admin](administrative-reports/daily-monthly-yearly-stats-admin.md)
+  * [Duplicate Records-admin](administrative-reports/duplicate-records-admin.md)
+  * [Fix Bib Records-admin](administrative-reports/fix-bib-records-admin.md)
+  * [Fix Items-admin](administrative-reports/fix-items-admin.md)
+  * [Holds-admin](administrative-reports/holds-admin.md)
+  * [ILL-admin](administrative-reports/ill-admin.md)
+  * [Items-admin](administrative-reports/items-admin.md)
+  * [Local Holds - Walkin-admin](administrative-reports/local-holds-walkin-admin.md)
+  * [Not For Loan-admin](administrative-reports/not-for-loan-admin.md)
+  * [Overdues-admin](administrative-reports/overdues-admin.md)
+  * [Patron Statistics-admin](administrative-reports/patron-statistics-admin.md)
+  * [Patrons-admin](administrative-reports/patrons-admin.md)
+  * [Post-Lansing](administrative-reports/post-lansing.md)
+  * [Reports Testing Ground](administrative-reports/reports-testing-ground.md)
+  * [Reports-admin](administrative-reports/reports-admin.md)
+  * [School Libraries-admin](administrative-reports/school-libraries-admin.md)
+  * [Shelf Lists - admin](administrative-reports/shelf-lists-admin.md)
+  * [Slow Patrons - admin](administrative-reports/slow-patrons-admin.md)
+  * [System-admin](administrative-reports/system-admin.md)
+  * [Testing](administrative-reports/testing.md)
+  * [Weeding-Admin](administrative-reports/weeding-admin.md)
+  * [Zebraqueue](administrative-reports/zebraqueue.md)
+* [Catalog Records and Items](catalog-records-and-items/README.md)
+  * [No sub-group](catalog-records-and-items/no-sub-group.md)
+  * [Collection Statistics](catalog-records-and-items/collection-statistics.md)
+  * [Fix Items](catalog-records-and-items/fix-items.md)
+  * [Local Hold - Walkins](catalog-records-and-items/local-hold-walkins.md)
+  * [New Materials](catalog-records-and-items/new-materials.md)
+  * [Not For Loan](catalog-records-and-items/not-for-loan.md)
+  * [Reading Program Reports](catalog-records-and-items/reading-program-reports.md)
+  * [Shelf Lists](catalog-records-and-items/shelf-lists.md)
+  * [Status reports-lost, damaged](catalog-records-and-items/status-reports-lost-damaged.md)
+  * [Weeded Already](catalog-records-and-items/weeded-already.md)
+  * [Weeding Criteria](catalog-records-and-items/weeding-criteria.md)
+* [Circulation](circulation/README.md)
+  * [No sub-group](circulation/no-sub-group.md)
+  * [Charges](circulation/charges.md)
+  * [Checked Out](circulation/checked-out.md)
+  * [Circ Stats](circulation/circ-stats.md)
+  * [Overdues](circulation/overdues.md)
+  * [Transfers](circulation/transfers.md)
+* [Daily, Monthly, Yearly Stats](daily-monthly-yearly-stats/README.md)
+  * [No sub-group](daily-monthly-yearly-stats/no-sub-group.md)
+  * [All Time](daily-monthly-yearly-stats/all-time.md)
+  * [Daily](daily-monthly-yearly-stats/daily.md)
+  * [Monthly](daily-monthly-yearly-stats/monthly.md)
+  * [Yearly Stats Suite](daily-monthly-yearly-stats/yearly-stats-suite.md)
+  * [Yearly](daily-monthly-yearly-stats/yearly.md)
+* [Display reports](display-reports.md)
+* [Fines/Fees](fines-fees/README.md)
+  * [No sub-group](fines-fees/no-sub-group.md)
+* [Holds-Reserves](holds-reserves/README.md)
+  * [No sub-group](holds-reserves/no-sub-group.md)
+  * [Duplicate request problems](holds-reserves/duplicate-request-problems.md)
+  * [Holds Statistics](holds-reserves/holds-statistics.md)
+  * [Holds troubleshooting](holds-reserves/holds-troubleshooting.md)
+* [Interlibrary Loan](interlibrary-loan/README.md)
+  * [No sub-group](interlibrary-loan/no-sub-group.md)
+* [Library-Specific](library-specific/README.md)
+  * [No sub-group](library-specific/no-sub-group.md)
+  * [Atchison](library-specific/atchison.md)
+  * [Basehor](library-specific/basehor.md)
+  * [Bonner Springs](library-specific/bonner-springs.md)
+  * [Burlingame](library-specific/burlingame.md)
+  * [Doniphan](library-specific/doniphan.md)
+  * [Eudora](library-specific/eudora.md)
+  * [Hiawatha](library-specific/hiawatha.md)
+  * [Holton](library-specific/holton.md)
+  * [Horton](library-specific/horton.md)
+  * [Lansing](library-specific/lansing.md)
+  * [Leavenworth](library-specific/leavenworth.md)
+  * [Linwood](library-specific/linwood.md)
+  * [McLouth](library-specific/mclouth.md)
+  * [NEKLS](library-specific/nekls.md)
+  * [Osawatomie](library-specific/osawatomie.md)
+  * [Oskaloosa](library-specific/oskaloosa.md)
+  * [Ottawa](library-specific/ottawa.md)
+  * [Overbrook](library-specific/overbrook.md)
+  * [POMONA](library-specific/pomona.md)
+  * [Rossville](library-specific/rossville.md)
+  * [Tonganoxie](library-specific/tonganoxie.md)
+  * [Valley Falls](library-specific/valley-falls.md)
+  * [Wellsville](library-specific/wellsville.md)
+  * [Williamsburg](library-specific/williamsburg.md)
+  * [Winchester](library-specific/winchester.md)
+* [Lists Module](lists-module/README.md)
+  * [No sub-group](lists-module/no-sub-group.md)
+* [Monthly cleanup](monthly-cleanup/README.md)
+  * [No sub-group](monthly-cleanup/no-sub-group.md)
+* [Notices](notices/README.md)
+  * [No sub-group](notices/no-sub-group.md)
+* [Patrons](patrons/README.md)
+  * [No sub-group](patrons/no-sub-group.md)
+  * [Fix Patrons](patrons/fix-patrons.md)
+  * [Guarantor/guranantee reports](patrons/guarantor-guranantee-reports.md)
+  * [Patron Statistics](patrons/patron-statistics.md)
+* [Popular Reports](popular-reports/README.md)
+  * [No sub-group](popular-reports/no-sub-group.md)
+* [School Libraries](school-libraries/README.md)
+  * [No sub-group](school-libraries/no-sub-group.md)
+  * [\[Overdues \(schools.md\)\]\(Overdues \(schools.md\)/school\_schoverdues.md\)](school-libraries/overdues-schools.md-overdues-schools.md-school_schoverdues.md.md)
+  * [Students](school-libraries/students.md)
+  * [Teachers](school-libraries/teachers.md)
+* [Serials](serials.md)
+* [Statistics](statistics/README.md)
+  * [No sub-group](statistics/no-sub-group.md)
+  * [Date range](statistics/date-range.md)
+  * [Last calendar month](statistics/last-calendar-month.md)
 
