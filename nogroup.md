@@ -1,5 +1,4 @@
-# No group
-
+INFO
 ---
 
 #### Number: 570
@@ -76,7 +75,24 @@ Enhanced -- enter author name. For catalog cleanup
 ```
 <div id=reportinfo>
 <p>Shows items with restricted itemtypes that have passed their restriction limits</p>
-<ul><li>Shows
+<ul><li>Shows items with localhold1, localhold2, walkin1, walkin2 item types that have passed their 30 or 60 day restriction limits</li>
+<li>at all NExpress libraries</li>
+<li>grouped by item number</li>
+<li>sorted by owning library, collection code, and accession date</li>
+<li>contains links to the item record</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Companion reports are:</p>
+<p></p>
+<p>For Book barcodes <a href="http-s://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2498&phase=Run%20this%20report" target="_blank">Run Report #2498</a></p>
+<p>For Movie Barcodes <a href="http-s://staff.nexpresslibrary.org/cgi-bin/koha/reports/guided_reports.pl?reports=2497&phase=Run%20this%20report" target="_blank">Run Report #2497</a></p>
+<p></p>
+<p>Report created by Heather Braum.  Explanatory notes added and query updated by GHW on 2017.12.28.</p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=1580&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 1926
@@ -549,7 +565,15 @@ Choose your library twice
 ```
 <div id=reportinfo>
 <p>This report shows all items added to NExpress at a specific library branch after a specified date</p>
-<ul><li>Shows
+<ul><li>Shows items that are currently still in NExpress</li>
+<li>Allows user to specify the item's homebranch, shelving location, item type, collection code, and the item's date added</li>
+<li>grouped by homebranch, location, itype, collection code, and call number</li>
+<li>sorted by homebranch, location, itype, collection code, and call number</li>
+<li>contains links directly to the item's bibliographic record</li>
+</ul><br />
+</div>
+```
+
 ---
 
 #### Number: 2719
@@ -560,7 +584,15 @@ Choose your library twice
 ```
 <div id=reportinfo>
 <p>This report shows all items added to NExpress at a specific library branch after a specified date</p>
-<ul><li>Shows
+<ul><li>Shows items that are currently still in NExpress</li>
+<li>Allows user to specify the item's homebranch, shelving location, item type, collection code, and the item's date added</li>
+<li>grouped by homebranch, location, itype, collection code, and call number</li>
+<li>sorted by homebranch, location, itype, collection code, and call number</li>
+<li>contains links directly to the item's bibliographic record</li>
+</ul><br />
+</div>
+```
+
 ---
 
 #### Number: 2721
@@ -612,7 +644,16 @@ Choose your library twice
 
 ```
 <div id=reportinfo>
-<p>This report shows all items added to NExpress at a specific library branch after a specified date - includes d
+<p>This report shows all items added to NExpress at a specific library branch after a specified date - includes date added, date last borrowed, date last seen, and total circulations+renewals</p>
+<ul><li>Shows items that are currently still in NExpress</li>
+<li>Allows user to specify the item's homebranch, shelving location, item type, collection code, and the item's date added</li>
+<li>grouped by homebranch, location, itype, collection code, and call number</li>
+<li>sorted by homebranch, location, itype, collection code, and call number</li>
+<li>contains links directly to the item's bibliographic record</li>
+</ul><br />
+</div>
+```
+
 ---
 
 #### Number: 2757
@@ -654,7 +695,18 @@ Holds ratio
 
 ```
 <div id=reportinfo>
-<p>Counts circulation (checkouts + renewals) on items checked out between DATE1 an
+<p>Counts circulation (checkouts + renewals) on items checked out between DATE1 and DATE2 and groups them by shelving location</p>
+<ul><li>Shows items checked out or renewed between two specified dates (between 12:00 a.m. on DATE1 and 11:59 p.m. on DATE2</li>
+<li>shows items checked out at the specified library</li>
+<li>grouped by item check-out branch</li>
+<li>sorted by item check-out branch and shelving location</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p>Location data is based on the shelving location of the item at the time the report was run - not the time when the item circulated.</p>
+<p>Report created by GHW at the request of LEAVENWRTH so they could track circulation of items on display.</p>
+</div>
+```
+
 ---
 
 #### Number: 2771
@@ -665,7 +717,19 @@ Holds ratio
 ```
 <div id=reportinfo>
 <p>Attempts to discern which card number ranges are in use at a specified library</p>
-<ul><li>reports on curr
+<ul><li>reports on current cards in NExpress</li>
+<li>Shows card prefixes at a specified patron homebranch<br />with a specified number of prefix digits<br />and where there are more than a specified number of cards with that prefix</li>
+<li>grouped and sorted by patron home library and card number prefix</li>
+<li>click on links to see if other libraries are using this same prefix identified in the report (report 2773)</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p>Report 2773 is the companion to this report</p>
+<p>Report created at the request of Robin Hastings.</p>
+<p>Report created by George Williams.</p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2771&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2773
@@ -676,7 +740,17 @@ Holds ratio
 ```
 <div id=reportinfo>
 <p>Attempts to discern which libraries are using a specified card prefix</p>
-<ul><li>reports on current cards i
+<ul><li>reports on current cards in NExpress</li>
+<li>shows a count of how many cards with the specified prefix exist at all NExpress libraries</li>
+<li>grouped and sorted by patron home library</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p>Report 2771 is the companion to this report</p>
+<p>Report created at the request of Robin Hastings.</p>
+<p>Report created by George Williams.</p>
+</div>
+```
+
 ---
 
 #### Number: 2781
@@ -693,7 +767,16 @@ Holds ratio
 
 ```
 <div id=reportinfo>
-<p>This report shows all items added to NExpress at a specific library branch after a specified date - includes date
+<p>This report shows all items added to NExpress at a specific library branch after a specified date - includes date added</p>
+<ul><li>Shows items that are currently still in NExpress</li>
+<li>Allows user to specify the item's homebranch, shelving location, item type, collection code, and the item's date added</li>
+<li>grouped by date added, homebranch, location, itype, collection code, and call number</li>
+<li>sorted by homebranch, location, itype, collection code, and call number</li>
+<li>contains links directly to the item's bibliographic record</li>
+</ul><br />
+</div>
+```
+
 ---
 
 #### Number: 2800
@@ -753,7 +836,16 @@ Holds ratio
 ```
 <div id=reportinfo>
 <p>Shows upcoming closures at a specified branch</p>
-<ul><li>Shows repeating closures for the next 12 m
+<ul><li>Shows repeating closures for the next 12 months and all future closures on individually specified dates</li>
+<li>Shows closures at the branch you specify</li>
+<li>sorted by branch and date</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p>If the "REPEATS" column contains the letter "R," the holiday repeats.  If the "REPEATS" column contains a year, the holiday is only scheduled to happen once.</p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2824&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2830
@@ -800,7 +892,19 @@ Holds ratio
 ```
 <div id=reportinfo>
 <p>Gives quick and easy data on a single item</p>
-<ul><li>Shows current data on the item you specify</li>||
+<ul><li>Shows current data on the item you specify</li>
+<li>grouped by item number</li>
+<li>sorted by the normal NExpress classification scheme</li>
+<li>contains links to the borrower (if checked out), the title and item records and request history as well as the in-transit history</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Contains active links to reports 2784 and 3039</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2842&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2847
@@ -811,7 +915,17 @@ Holds ratio
 ```
 <div id=reportinfo>
 <p>Generates a list of contact information for all NExpress libraries</p>
-<ul><li>Shows the data currently in
+<ul><li>Shows the data currently in NExpress</li>
+<li>At the branch or group of branches you specify</li>
+<li>grouped by branch code</li>
+<li>sorted by branch code</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2847&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2855
@@ -862,7 +976,9 @@ Holds ratio
 ```
 Everything this report can do is now available in report 3086.
 
-<p><span style="background-color: darkred; color: whi
+<p><span style="background-color: darkred; color: white">This report is scheduled for deletion on August 1, 2018.</p>
+```
+
 ---
 
 #### Number: 2896
@@ -873,7 +989,19 @@ Everything this report can do is now available in report 3086.
 ```
 <div id=reportinfo>
 <p>Generates a list of lost items</p>
-<ul><li>Shows items that currently have the lost status you s
+<ul><li>Shows items that currently have the lost status you specify</li>
+<li>shows items with a home library that you specify</li>
+<li>that were declared lost during the date range you specify</li>
+<li>grouped by item barcode number</li>
+<li>sorted by NExpress standard classification scheme</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>If an item has a blank LOST_DATE and a blank DAYS_LOST it is because the item was marked lost before we upgraded to Koha 3.16 (October 2014)</p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2896&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2905
@@ -891,7 +1019,20 @@ Everything this report can do is now available in report 3086.
 ```
 <div id=reportinfo>
 <p>Report of possible duplicate borrowers at a library</p>
-<ul><li>Shows patrons currently in the databa
+<ul><li>Shows patrons currently in the database</li>
+<li>with at least one library account at the library you specify</li>
+<li>grouped and sorted by last name/first name</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report will only show you results where the last name and first name are a perfect match.  It will return a match if you have two patrons named John Smith.  But if one patron is named John J. Smith and the other is just named John Smith, it will not return a match.  The two names have to be identical.</p>
+<p>Report created by George Williams.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2909&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+
+```
+
 ---
 
 #### Number: 2922
@@ -909,7 +1050,17 @@ Everything this report can do is now available in report 3086.
 ```
 <div id=reportinfo>
 <p>Shows the current basic circulation rules at your library</p>
-<ul><li>Shows the current circulation
+<ul><li>Shows the current circulation rules</li>
+<li>at the library you specify</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Circulation rules are applied from most specific to most general.  Therefore, if you have a rule that specifies a patron category and an item type, that rule will be applied before a rule that specifies an item type but not a patron category or one that specifies a patron category but not an item type.  All patron categories/All item type rules only apply if no category or item type rule is specified.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2925&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2930
@@ -919,7 +1070,22 @@ Everything this report can do is now available in report 3086.
 
 ```
 <div id=reportinfo>
-<p>Lists all patrons with outstanding fees on items checked out at the library you
+<p>Lists all patrons with outstanding fees on items checked out at the library you choose or on fees that were manually created at the library you choose</p>
+<ul><li>Shows patrons with outstanding balances due</li>
+<li>only shows patrons with fees that were created at the library you specify</li>
+<li>also allows you to list patrons who have items checked out, patrons who do not have items checked out, or all patrons</li>
+<li>grouped by patron card number and accountlines ID</li>
+<li>sorted by the patron's last name, first name, and card number</li>
+<li>contains links to the account tab on the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Report created at the request of LANSING.</p>
+<p>Report created by George Williams.</p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2930&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2947
@@ -951,7 +1117,24 @@ Everything this report can do is now available in report 3086.
 ```
 <div id=reportinfo>
 <p>Generates a list of items that will be automatically deleted two months from today</p>
-<ul><li
+<ul><li>Shows items that are about to be deleted</li>
+<li>at the branch you specify</li>
+<li>grouped by item number</li>
+<li>sorted by homebranch, location, item type, collection code, call number, author, and title</li>
+<li>contains links to the bibliographic records of the items about to be deleted</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><span style="background-color:darkred; color:white;">Updated 2017.09.08 to correct for some errors/problems that have come up in the auto-deletion process.</span></p>
+<p></p>
+<p>This report goes along with the script that NExpress asked ByWater to write in 2015 that automatically deletes any items that have had a "Lost," "Lost (more than 45 days overdue)," "Missing," "Lost - Damaged/Replace," "Lost - Patron Claims Returned," "In Processing," "Discard," "Lost - Not Returnable," or  "Withdrawn" status for more than 13 months.  This report allows libraries to see what these items are 2 months before the items are scheduled to be deleted.</p>
+<p></p>
+<p>The report will show all deletions that are scheduled to happen 2 months in the future.  For example, if you run the report in January, you will see what is going to be deleted automatically through the end of March.  If you run it in July, you will see what is going to be deleted through the end of September.  If you run it in December, you will see what is going to be deleted through the end of February of the next year.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2959&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 2962
@@ -986,7 +1169,9 @@ bws ticket #42630 (Change in the check-in display)
 
 ```
 DRAFT - This report runs but is still in progress.
-<p><span style="background-color: darkred; color: whi
+<p><span style="background-color: darkred; color: white">Needs metadata conversion post 17.05</p>
+```
+
 ---
 
 #### Number: 2987
@@ -1024,7 +1209,8 @@ DRAFT - This report runs but is still in progress.
 
 ```
 <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2996&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
-```|
+```
+
 ---
 
 #### Number: 2997
@@ -1034,7 +1220,8 @@ DRAFT - This report runs but is still in progress.
 
 ```
 <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2997&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
-```|
+```
+
 ---
 
 #### Number: 2998
@@ -1044,7 +1231,8 @@ DRAFT - This report runs but is still in progress.
 
 ```
 <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2998&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
-```|
+```
+
 ---
 
 #### Number: 2999
@@ -1054,7 +1242,8 @@ DRAFT - This report runs but is still in progress.
 
 ```
 <p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=2999&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
-```|
+```
+
 ---
 
 #### Number: 3000
@@ -1104,7 +1293,18 @@ asks for virtual shelf number, found in URL of list
 ```
 <div id=reportinfo>
 <p>Count the number of patrons at a specified library based on patron category.</p>
-<ul><li>Shows current total nu
+<ul><li>Shows current total number of patrons plus the number of patrons added last month and the total number of patrons deleted last month</li>
+<li>At the library you specify</li>
+<li>grouped and sorted by patron category</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Can only be run for one library branch at a time.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3008&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3017
@@ -1136,7 +1336,18 @@ asks for virtual shelf number, found in URL of list
 ```
 <div id=reportinfo>
 <p>Counts the number of times a specified cronjob has run in the previous 60 days</p>
-<ul><li>Counts cronjobs run in the pr
+<ul><li>Counts cronjobs run in the previuos 60 days</li>
+<li>system-wide</li>
+<li>grouped by date and cronjob name</li>
+<li>sorted by date - newest to oldest</li>
+<li>Contains links to report 3024 which allows you to see the specific times the cronjob ran on that date</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3023&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3024
@@ -1147,7 +1358,17 @@ asks for virtual shelf number, found in URL of list
 ```
 <div id=reportinfo>
 <p>Shows the time a cronjob ran on the date specified within the previous 60 days</p>
-<ul><li>Shows crono
+<ul><li>Shows cronojb run times during the date range you specify</li>
+<li>shows runtimes for cronjobs system wide</li>
+<li>grouped by the actionlog ID for the cronjob</li>
+<li>sorted by the date and time the cronjob ran - newest dates to oldest dates</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3024&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3025
@@ -1197,7 +1418,18 @@ asks for virtual shelf number, found in URL of list
 ```
 <div id=reportinfo>
 <p>Shows action log entries for specific requests from the last 60 days</p>
-<ul><li>Shows actions that
+<ul><li>Shows actions that happened within the last 60 days</li>
+<li>on the request you specify</li>
+<li>grouped and sorted by action log ID</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Data from the action logs is purged once it is 60 days old.  This report cannot show you information about request modifications if those modifications happened more than 60 days ago.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3040&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3042
@@ -1216,7 +1448,16 @@ asks for virtual shelf number, found in URL of list
 <div id=reportinfo>
 <p>Gives quick and easy data on a single deleted item</p>
 <ul><li>Shows data on the item you specify</li>
-<li
+<li>grouped by item number</li>
+<li>sorted by the normal NExpress classification scheme</li>
+<li>contains links to the bibliographic record unless the bibliographic record has also been deleted</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3043&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3044
@@ -1322,7 +1563,22 @@ Report for uploading SQL to GitHub - part 2
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons based on their SMS text messaging e-mail address and produces a "Bounced Text" mess
+<p>Generates a list of patrons based on their SMS text messaging e-mail address and produces a "Bounced Text" message that can be quickly cut and pasted into a message on the patron's account.</p>
+<ul><li>Shows all borrowers that are using the specified SMS text e-mail address that has bounced in the last 60 days</li>
+<li>Shows borrowers at all NExpress branches with that SMS text e-mail address</li>
+<li>grouped by barcode number</li>
+<li>includes links to the patron record</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>If more than one patron is using the text messaging number you enter on their account, you will receive one result in this report for each patron with that number.</p>
+<p></p>
+<p>For bounced e-mails, use report 2910.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3062&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3063
@@ -1333,7 +1589,18 @@ Report for uploading SQL to GitHub - part 2
 ```
 <div id=reportinfo>
 <p>Shows only the Tile/Author information for titles on a list</p>
-<ul><li>Shows titles that are currently on the
+<ul><li>Shows titles that are currently on the list</li>
+<li>grouped by biblionumber</li>
+<li>sorted by author and title</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>To print, use the web browser's print functions.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3063&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3064
@@ -1360,7 +1627,41 @@ Report for uploading SQL to GitHub - part 2
 
   $(window).on("load", function() {
 
-    $("#rep_guided_reports_start #yui-main table").attr("id","receipttable")
+    $("#rep_guided_reports_start #yui-main table").attr("id","receipttable");
+
+    $("#rep_guided_reports_start td .hideme").hide();
+
+      $("#digireciept").click(function () {
+        var el = document.getElementById("receipttable");
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        document.execCommand('copy');
+        window.open("http-://news.nexpresslibrary.org/one-time-digital-receipt/", "_blank");
+      });
+
+});
+
+</script>
+
+<div id="reportinfo" class="hideme">
+<p>Creates a digital receipt that can be copied and pasted into a form for easy mailing to a patron's e-mail address</p>
+<ul><li>WHEN</li>
+<li>Whose Stuff</li>
+<li>grouped by</li>
+<li>sorted by</li>
+<li>links</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p><input type="button" id="digireciept" style="margin: 20px; padding: 5px;" value="One time e-mail receipt step 2"></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3076&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3077
@@ -1379,7 +1680,24 @@ Report for uploading SQL to GitHub - part 2
 <div id=reportinfo>
 <p>Shows number of login attempts on a specific account.</p>
 <ul><li>Shows current data</li>
-<li>f
+<li>for the library card number you specify</li>
+<li>grouped by library card number</li>
+<li>sorted by patron's last name and card number</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>For the full instruction sheet for unlocking a patron's account after it has been locked due to too many login attempts, <a href="http-://guides.nekls.org/assets/users/_gwilliams/account.lockout.pdf" target="_blank">click here</a></p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3079&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+
+
+
+
+
+<p>For the full instruction sheet, <a href="http-://guides.nekls.org/assets/users/_gwilliams/account.lockout.pdf" target="_blank">click here</a></p>
+```
+
 ---
 
 #### Number: 3080
@@ -1411,7 +1729,17 @@ Report for uploading SQL to GitHub - part 2
 ```
 <div id=reportinfo>
 <p>Print holds queue report with scannable barcodes and divided into priorities.</p>
-<ul><li>Shows items in the cur
+<ul><li>Shows items in the current holds queue</li>
+<li>at the location you specify</li>
+<li>grouped by specified location, items home branch, call number, author, and title</li>
+<li>sorted by request priority and standard NEXT classification.</li>
+<li>contains links to the bibliographic records</li>
+</ul><br />
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3084&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3085
@@ -1432,7 +1760,23 @@ Cannot be exported to csv (too large)
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons with contact information based on their "Newsletter permission" attr
+<p>Generates a list of patrons with contact information based on their "Newsletter permission" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and newsletter permission you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>Replaces report 2887 (GHW - Patrons with Newsletter permission flag).</p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have agreed to let you use their e-mail address from the catalog for the purposes of sending them an e-mail newsletter.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3086&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3087
@@ -1443,6 +1787,20 @@ Cannot be exported to csv (too large)
 ```
 <div id=reportinfo>
 <p>Generates a list of patrons with contact information based on their "Movie permission" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and movie permission setting you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have one of the Movie permission attributes set on their account.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3087&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3088
@@ -1452,7 +1810,21 @@ Cannot be exported to csv (too large)
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons with contact information based on their "Internet permission" attribut
+<p>Generates a list of patrons with contact information based on their "Internet permission" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and internet permission you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have an internet permission attribute set on their account.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3088&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3089
@@ -1463,6 +1835,20 @@ Cannot be exported to csv (too large)
 ```
 <div id=reportinfo>
 <p>Generates a list of patrons with contact information based on their "Special location" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and special location you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have a special location attribute set on their account.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3089&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3090
@@ -1473,7 +1859,20 @@ Cannot be exported to csv (too large)
 ```
 <div id=reportinfo>
 <p>Generates a list of patrons with contact information based on their "Hold contact" attributes</p>
-<u
+<ul><li>Shows current patrons</li>
+<li>with the home library and hold contact method you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have a hold contract attribute set.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3090&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3091
@@ -1483,7 +1882,21 @@ Cannot be exported to csv (too large)
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons with contact information based on their "Account expired" attributes</p>||+
+<p>Generates a list of patrons with contact information based on their "Account expired" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and account expired attribute you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have a account expired attribute set.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3091&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3092
@@ -1493,7 +1906,21 @@ Cannot be exported to csv (too large)
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons with contact information based on their "Collection agency" attributes</p
+<p>Generates a list of patrons with contact information based on their "Collection agency" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library and collection agency attribute you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have a collection agency attribute set.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3092&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3093
@@ -1503,7 +1930,21 @@ Cannot be exported to csv (too large)
 
 ```
 <div id=reportinfo>
-<p>Generates a list of patrons with contact information bas
+<p>Generates a list of patrons with contact information based on the "Other attributes 1," "Other attributes 2," and "Registration library" attributes</p>
+<ul><li>Shows current patrons</li>
+<li>with the home library you specify</li>
+<li>grouped by borrower number and attribute</li>
+<li>sorted by patron last name/patron first name</li>
+<li>contains links to the patron's account</li>
+</ul><br />
+<p><ins>Notes:</ins></p>
+<p></p>
+<p>This report can be used to determine which patrons at your library have any of these attributes set.</p>
+<p></p>
+<p><a href="/cgi-bin/koha/reports/guided_reports.pl?reports=3093&phase=Run%20this%20report"  target="_blank">Click here to run in a new window</a></p>
+</div>
+```
+
 ---
 
 #### Number: 3098
